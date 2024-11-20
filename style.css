@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d6d4e0; /* Soft gray */
+  }
+  
+  h1 {
+    color: #454140; /* Dark gray*/
+    text-align: center;
+  }
+  
+  form {
+    background-color: #b7d7e8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #667292; 
+  }
+  
+  input[type="text"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #87bdd8; /* Soft blue */
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #484f4f;
+  }
+  
+  #medicationList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #medicationList li {
+    background-color: #f9d5e5; /* Soft pink */
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
