@@ -7,7 +7,7 @@ To Use:
 
 Clone the Repository:
 Bash
-git clone https://github.com/your_username/MedTrack.git
+git clone https://github.com/Celine2Wangui/MedTrack.git
 Use code with caution.
 
 Open the index.html file: This will launch the application in your web browser.
