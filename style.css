@@ -1,55 +1,94 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #d6d4e0; /* Soft gray */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Professional font */
+  background-color: #F0FDF4; /* Soft mint white background */
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #64A19D; /* Mint green for the title */
+  text-align: center;
+  padding-top: 20px;
+  font-size: 36px;
+}
+
+form {
+  background-color: #A8DADC; /* Light mint background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #4D4D4D; /* Neutral gray for labels */
+  font-weight: bold;
+}
+
+input[type="text"], input[type="date"], select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #B0D0D3; /* Light gray border */
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: #FFFFFF; /* White background for inputs */
+  font-size: 16px;
+}
+
+button {
+  background-color: #64A19D; /* Mint green for the button */
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #517F73; /* Darker mint green on hover */
+}
+
+#medicationList {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#medicationList li {
+  background-color: #E5F9F2; /* Light pastel mint for list items */
+  border: 1px solid #D1E3E1;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="text"]:focus, input[type="date"]:focus, select:focus, button:focus {
+  border-color: #64A19D; /* Mint green on focus */
+  outline: none;
+}
+
+@media (max-width: 600px) {
+  body {
+      font-size: 14px;
   }
-  
-  h1 {
-    color: #454140; /* Dark gray*/
-    text-align: center;
-  }
-  
+
   form {
-    background-color: #b7d7e8;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 15px;
   }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-    color: #667292; 
-  }
-  
-  input[type="text"], input[type="date"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
+
   button {
-    background-color: #87bdd8; /* Soft blue */
-    color: #333;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+      font-size: 16px;
   }
-  
-  button:hover {
-    background-color: #484f4f;
+
+  input[type="text"], input[type="date"], select {
+      width: 100%;
   }
-  
-  #medicationList {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  #medicationList li {
-    background-color: #f9d5e5; /* Soft pink */
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-  }
+}
